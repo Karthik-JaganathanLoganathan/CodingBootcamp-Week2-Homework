@@ -43,6 +43,9 @@
 .navimage {
     height: 200px;
     width: 1600%;
+    position: relative;
+    top: 0;
+    left: 0;
     background-image: url("../asset/images/Navbar_image.jpg");
     background-position: center;
 }
@@ -50,11 +53,27 @@
 
 .picture {
     
-
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+    width: 180px;
     background-position: right;
     background-image: url("../asset/images/Profile_pic.jpg");
 
 
+}
+
+
+.project1{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    border: 1px solid #ddd;
+    border-radius: 400px;
+    padding: 50px;
+    width: 500px;
+    
 }
 
 .contactinfo {
@@ -65,7 +84,7 @@
     font-size: 36px;
     color: #1b18e4;
     position: absolute;
-    bottom: 34px;
+    bottom: 0px;
     right: 0px;
 }
 
